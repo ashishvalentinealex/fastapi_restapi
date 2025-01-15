@@ -1,7 +1,7 @@
-FastAPI File Upload - Image/Video Processor
+# FastAPI File Upload - Image/Video Processor
 This project uses FastAPI to provide an endpoint for uploading images and videos. Depending on the file type, images will be saved directly into a specified folder, while videos will be processed by extracting each frame and saving the frames as individual images.
 
-Features
+# Features
 Upload an image or video using a POST request.
 If an image is uploaded, it is saved in a folder named after the provided name.
 If a video is uploaded, each frame is extracted and saved as an image in the folder named after the provided name.
